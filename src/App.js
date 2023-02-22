@@ -1,8 +1,11 @@
 import './App.css';
+import Header from './componentes/Header';
 
 const App = () => {
   return (
-      <div><h1>Hola Mundo!</h1></div>
+      <div className='contenedor'>
+          <Header />
+      </div>
   );
 }
 
