@@ -89,9 +89,9 @@
 	color: var(--verde);
 }
 
-/* * --- --- ---  LISTA TAREAS --- --- --- */
+/* --- --- ---  LISTA TAREAS --- --- --- */
 
-/* .lista-tareas {
+.lista-tareas {
 	list-style: none;
 	height: 100%;
 	overflow: auto;
@@ -147,8 +147,8 @@
 	padding: 40px 20px;
 }
 
-/* * --- --- ---  FORMULARIO EDITAR TAREA --- --- --- */
-/* .formulario-editar-tarea {
+/* --- --- ---  FORMULARIO EDITAR TAREA --- --- --- */
+ .formulario-editar-tarea {
 	display: flex;
 }
 
@@ -157,9 +157,15 @@
 	border: none;
 	border-bottom: 2px solid #b8b8b8;
 	background: none;
-	font-size: 20px;
+	font-size: 18px;
 	font-family: 'Roboto', sans-serif;
 	margin-right: 20px;
+	outline: none;
+	padding: 0 10px;
+	line-height: 1.5;
+}
+.formulario-editar-tarea__input:focus{
+	border-bottom: 2px solid #010101;
 }
 
 .formulario-editar-tarea__btn {
@@ -170,4 +176,4 @@
 	padding: 0 10px;
 	font-family: 'Roboto', sans-serif;
 	border-radius: 3px;
-} */ 
+} 
