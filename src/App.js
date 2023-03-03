@@ -16,7 +16,7 @@ const App = () => {
       {
         id: 2,
         texto: 'Almuerzo a las 2',
-        completada: false
+        completada: true
       }
     ]
   );
@@ -26,7 +26,7 @@ const App = () => {
       <div className='contenedor'>
           <Header />
           <FormularioTareas tareas={tareas} cambiarTareas={cambiarTareas}/>
-          <ListaTareas tareas={tareas}/>
+          <ListaTareas tareas={tareas} cambiarTareas={cambiarTareas}/>
       </div>
   );
 }
