@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPlus } from '@fortawesome/free-solid-svg-icons';
+import { faPlus, faPlusSquare } from '@fortawesome/free-solid-svg-icons';
 
 const FormularioTareas = ({tareas, cambiarTareas}) => {
 
@@ -24,6 +24,9 @@ const FormularioTareas = ({tareas, cambiarTareas}) => {
                 completada:false
             }
         ]);
+
+        //Limpiar input luego de agregar la tarea
+        cambiarInputTarea('')
     }
 
 

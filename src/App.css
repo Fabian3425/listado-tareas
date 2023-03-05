@@ -86,7 +86,13 @@
 
 .formulario-tareas__icono-btn {
 	font-size: 22px;
-	color: var(--verde);
+	color: #80BE4E;
+}
+.formulario-tareas__icono{
+	background: var(--verde);
+	color:#fff;
+	padding: 4px 5px;
+	border-radius: 4px;
 }
 
 /* --- --- ---  LISTA TAREAS --- --- --- */
